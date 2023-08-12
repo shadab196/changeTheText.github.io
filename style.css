@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    border: 2px solid black;
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 30%;
+    overflow: hidden;
+    
+}
+#button{
+    background-color: aqua;
+    color: black;
+    border: black 2px solid;
+    font-weight: 900;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+
+}
